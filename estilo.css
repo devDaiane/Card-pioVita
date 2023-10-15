@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Onest:wght@100;300&family=Paytone+One&display=swap');
+
+*{  padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family:bebas neue;
+}
+
+    
+header {
+    background-color: #ffdab9;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+          align-items: center;     
+    }
+
+header img{
+   width: 170px;
+}
+
+header .navegacao {
+    display: flex;
+    padding: 10px;
+    font-size: 1rem;
+    gap: 10px;
+    }
+
+header a{
+    color: #e76f51;
+    font-size: 20px;
+    
+}
+
+header a:hover{
+    color: #2a9d8f;
+}
+
+.destaque h2 {
+    color: #e76f51;
+    margin-top: 10rem;
+    margin-left: 35rem;
+    font-size: 50px;
+   }
+
+.produtos{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 30px;
+    text-align: center;
+
+}
+
+.suco img{
+    width: 300px;
+    height: 300px;
+    
+}
+ 
+.suco h3{
+    font-size: 20px;
+    color: #e76f51;
+
+}
+
+.produtos p{
+    font-size: 30px;
+    color: #2a9d8f;
+}
+
+button{
+border: none;
+background-color: #2a9d8f;
+color: white;
+padding: 10px;
+border-radius: 10px;
+   
+}
+
+.Info{
+    margin-top: 50px;
+    color: white;
+    font-size: 30px;
+    background-color: #ccd5ae;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height: 30vh;
+    align-items: center;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    background-color: #e76f51;
+    font-size: 15px;
+    } 
+
+    @media all and (max-width:768px) {
+        .navegacao{
+            visibility: hidden;
+        }
+                .destaque, .produtos, .Info, footer{
+            display:block;
+            width: 80%;
+            padding: 0;
+            margin: 10px auto;
+        }
+    }
+
